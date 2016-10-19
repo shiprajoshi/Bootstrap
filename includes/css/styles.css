@@ -1,0 +1,411 @@
+body{
+  background-color: #191919;
+}
+#search{
+  width: 200px;
+}
+#features{
+  text-align: center;
+}
+ #features img{
+   margin: 0px 0px 20px;
+   height: 200px;
+   width: 200px;
+ }
+ footer{
+   background-color: #282e3c;
+   color: white;
+
+ }
+ #tab1 p{
+   font-family: 'PT Sans', sans-serif;
+   font-size: 16px;
+   margin-top: 40px;
+ }
+ #mainContent{
+   background-color: white;
+   margin-top: 60px;
+   margin-bottom: 60px;
+ }
+ .myCarouselCaption{
+   border-top: solid 4px rgb(77,200,236);;
+   background-color: rgba(0,0,0,0.2);
+ }
+ #group
+ {
+   margin-: 10px;
+ }
+
+ #destinations a:hover{
+   border: solid 1px green;
+ }
+ #destinations img{
+   width: 350px;
+ }
+ #destinations1 img{
+   width: 350px;
+ }
+ #tab2 img{
+   width: 570px;
+   height: 321px;
+ }
+ #destinations
+ {
+   margin-top: 10px;
+ }
+
+ #destinations1
+ {
+   margin-top: 10px;
+ }
+ #navigate{
+   font-size:13px;
+ }
+ #followUs{
+   font-size: 13px;
+ }
+
+
+#moreInfo{
+
+}
+#moreCourses{
+  margin-top: 10px;
+}
+#moreCourses h1
+{
+  font-family: 'Lobster', cursive;
+}
+.page-header h1
+{
+  font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Sigmar One', cursive;
+font-family: 'Rubik One', sans-serif;
+}
+.rome h2
+{
+  color: brown;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Satisfy', cursive;
+}
+.rome{
+  background-color: transparent;
+   margin-top: 7px;
+   text-align: justify;
+}
+#final{
+  margin-top: 50px;
+}
+
+.rome span{
+  color: brown;
+}
+.rome p{
+  text-align: justify;
+  font-size: 13px;
+}
+
+.unstyled
+{
+list-style-type: none;
+font-size: 15px;
+
+}
+#insta{
+  margin-left: 10px;
+}
+.banner {
+    top: -45px;
+    position: relative;
+}
+
+/* -----------
+---------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body{
+  -webkit-font-smoothing: antialiased;
+  text-rendering:optimizeLegibility;
+  background: url('../../images/.jpg');
+}
+.bg-overlay-ebony-clay
+{
+  background-color: rgba(100, 26, 30, 0.2);
+
+}
+.well .page-header{
+  margin-top: 00px;
+}
+.well .page-header h1{
+  margin-top: 00px;
+}
+.alert{
+  margin-top: 20px;
+}
+.well
+{
+  margin: 20px 0px;
+}
+.tabbable img.thumbnail{
+  margin:0px 20px 10px 0px;
+}
+.thumbnails
+{
+  margin 20px 0px;
+}
+.thumbnail{
+  position: relative;
+}
+.thumbnail .price{
+  position: absolute;
+  font-size: 22px;
+  top: -10px;
+  right:-10px;
+  padding:-10px;
+
+}
+#nav{
+  font-family: 'Wendy One', sans-serif;
+}
+.panel {
+background : url ('../../images/bg.jpg');
+background-color:transparent;
+}
+.panel img{
+  height: 300px;
+  width:300px;
+}
+#newbg
+{
+  background-color: #dcdee2;
+
+}
+#new{
+  background-color:    ;
+}
+#inputMessage{margin-bottom: 15px;}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+#myCarousel{
+  height: auto;
+}
+#prague1{
+  background: url('../../images/PRAGUE.jpg') no-repeat;
+}
+#prague2{
+  background: url('../../images/prague2.jpg') no-repeat;
+}
+#prague3{
+  background: url('../../images/prague3.jpg') no-repeat;
+}
+#rome1{
+  background: url('../../images/D2.jpg') no-repeat;
+}
+#rome2{
+  background: url('../../images/D3.jpg') no-repeat;
+}
+#rome3{
+  background: url('../../images/D4.jpg') no-repeat;
+}
+#paris1{
+  background: url('../../images/paris1.jpg') no-repeat;
+}
+#paris2{
+  background: url('../../images/paris2.jpg') no-repeat;
+}
+#paris3{
+  background: url('../../images/paris3.jpg') no-repeat;
+}
+#spain1{
+  background: url('../../images/spain.jpg') no-repeat;
+}
+#spain2{
+  background: url('../../images/spain2.jpg') no-repeat;
+}
+#spain3{
+  background: url('../../images/spain3.jpg') no-repeat;
+}
+#bar1{
+  background: url('../../images/D4.jpg') no-repeat;
+}
+#bar2{
+  background: url('../../images/D5.jpg') no-repeat;
+}
+#bar3{
+  background: url('../../images/D6.jpg') no-repeat;
+}
+#spain3{
+  background: url('../../images/spain3.jpg') no-repeat;
+}
+#japan1{
+  background: url('../../images/japan1.jpg') no-repeat;
+}
+#japan2{
+  background: url('../../images/japan2.jpg') no-repeat;
+}
+#japan3{
+  background: url('../../images/japan3.jpg') no-repeat;
+}
+
+
+.carousel-caption{
+  font-size: 24px;
+}
+#myCarousel .item{
+  height: 400px;
+}
+#myCarousel1 .item{
+  height: 300px;
+}
+#myCarousel2 .item
+{
+  height: 300px;
+}
+#myCarousel3 .item
+{
+  height: 300px;
+
+}
+#myCarousel4 .item
+{
+  height: 300px;
+}
+#myCarousel5 .item{
+  height: 300px;
+}
+#myCarousel6 .item{
+  height: 300px;
+}
+#slide1{
+ background: url('../../images/Carousel_Image1.jpg') top center no-repeat;
+ background-size: cover;
+}
+#slide2{
+ background: url('../../images/Carousel_Image2.jpg') top center no-repeat;
+ background-size: cover;
+}
+#slide3{
+ background: url('../../images/Carousel_Image3.jpg') top center no-repeat;
+ background-size: cover;
+}
+
+--------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+  body{
+    overflow-x: hidden;
+  }
+  .thumbnail .price{
+    position: absolute;
+    font-size: 10px;
+    top: -10px;
+    right:-10px;
+    padding:-10px;
+  }
+  #myCarousel .item{
+    height: 350px;
+    margin-top: 30px;
+  }
+  #myCarousel h4{
+    font-family: 'Lora', serif;
+    font-size: 29px;
+  }
+
+  #slide1{
+   background: url('../../images/Carousel_Image1.jpg') top center no-repeat;
+   background-size: cover;
+  }
+  #slide2{
+   background: url('../../images/Carousel_Image2.jpg') top center no-repeat;
+   background-size: cover;
+  }
+  #slide3{
+   background: url('../../images/Carousel_Image3.jpg') top center no-repeat;
+   background-size: cover;
+  }
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+  }
+  #myCarousel .item{
+    height: 450px;
+    margin-top: 30px;
+  }
+  #myCarousel h4{
+    font-family: 'Lora', serif;
+    font-size: 30px;
+  }
+  #slide1{
+   background: url('../../images/Carousel_Image1.jpg') top center no-repeat;
+   background-size: cover;
+  }
+  #slide2{
+   background: url('../../images/Carousel_Image2.jpg') top center no-repeat;
+   background-size: cover;
+  }
+  #slide3{
+   background: url('../../images/Carousel_Image3.jpg') top center no-repeat;
+   background-size: cover;
+  }
+  .carousel-caption{
+    font-size: 16px;
+  }
+
+.form-horizontal .form-group #password{
+  margin: 10px;
+}
+#login{
+  margin-top: 10px;
+}
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  body{
+    overflow-x: hidden;
+  }
+  #myCarousel .item{
+    height: 650px;
+    margin-top: 30px;
+    background-size: cover;
+  }
+  #myCarousel h4{
+    font-family: 'Lora', serif;
+    font-size: 60px;
+    font-weight: 700;
+
+  }
+  #slide1{
+   background: url('../../images/Carousel_Image1.jpg') top center no-repeat;
+  }
+  #slide2{
+   background: url('../../images/Carousel_Image2.jpg') top center no-repeat;
+  }
+  #slide3{
+   background: url('../../images/Carousel_Image3.jpg') top center no-repeat;
+  }
+
+
+}

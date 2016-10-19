@@ -1,0 +1,574 @@
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<!-- Website Title & Description for Search Engine purposes -->
+			<title></title>
+			<meta name="description" content="">
+			<!-- Mobile viewport optimized -->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+			<!-- Bootstrap CSS -->
+				<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+				<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+					<link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Satisfy" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Satisfy|Sigmar+One" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Rubik+One|Satisfy|Sigmar+One" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+			<!-- Custom CSS -->
+			<link href="includes/css/styles.css" rel="stylesheet">
+		</head>
+		<body style="background-color:rgb(240, 245, 248);">
+			<div class="container">
+				<div class="navbar navbar-default navbar-fixed-top">
+						<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							</button>
+						<a class="navbar-brand" href="#"><img src="images/logo.png" alt="yourlogo" /></a>
+						<div class="navbar-collapse navbar-responsive-collapse">
+							<ul class="nav navbar-nav" id="nav">
+								<li class="active"> <a href="#"> Home  </a></li>
+								<li class=""> <a href="#"> AboutUs </a></li>
+								<li class=""> <a href="gallery.html"> Gallery </a></li>
+
+								<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Services<strong class="caret"></strong> </a>
+								<ul class="dropdown-menu">
+									<li> <a href="#">Hotels</a></li>
+									<li> <a href="#">Flights </a></li>
+									<li> <a href="#">Buses </a></li>
+									<li> <a href="#">Cabs</a> </li>
+									<li class="divider"></li>
+									<li class="dropdown-header"> More Options</li>
+									<li> <a href="#">list4 </a> </li>
+									<li> <a href="#">list4 </a> </li>
+									<li> <a href="#">list4 </a> </li>
+								</ul>
+								</li>
+							</ul>
+							<form class="navbar-form pull-left" action="index.html" method="post">
+								<input type="text" class="form-control" placeholder="search your destination" id="search">
+								<button type="button" class="btn btn-default" name="button"><span class="glyphicon glyphicon-search"></span></button>
+							</form>
+							<ul class="nav navbar-nav pull-right">
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My Account</a>
+									<ul class="dropdown-menu">
+										<li> <a href="#"><span class="glyphicon glyphicon-settings"> My Profile</span></a></li>
+										<li> <a href="#"><span class="glyphicon glyphicon-lock"> Change Password</span></a></li>
+										<li> <a href="#"><span class="glyphicon glyphicon-settings">My Rewards</span></a></li>
+										<li> <a href="#"><span class="glyphicon glyphicon-settings">acc4</span></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div><!--end nav collapse-->
+					</div><!--end navbar-fixed-top-->
+				</div><!--end container-->
+				<div class="container-fluid">
+				<div class="carousel slide" id="myCarousel">
+					<ol class="carousel-indicators">
+						<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+						<li  data-slide-to="1" data-target="#myCarousel"></li>
+						<li data-slide-to="2" data-target="#myCarousel"></li>
+					</ol>
+
+					<!--wrapper for slides-->
+						<div class="carousel-inner ">
+							<div class="item active" id="slide1">
+								<div class="carousel-caption myCarouselCaption">
+									<h4> Heading </h4>
+									<p>
+										Learn how to work with bootstrap
+									</p>
+								</div><!-- end carousel caption-->
+							</div><!-- end item-->
+							<div class="item" id="slide2">
+								<div class="carousel-caption myCarouselCaption">
+									<h4> Heading </h4>
+									<p>
+										Learn how to work with bootstrap
+									</p>
+								</div><!-- end carousel caption-->
+							</div><!-- end item-->
+
+							<div class="item" id="slide3">
+							<!--	<img src="images/carousel_large_03.jpg" alt="" />-->
+								<div class="carousel-caption myCarouselCaption">
+									<h4> Heading </h4>
+									<p>
+										Learn how to work with bootstrap
+									</p>
+								</div><!-- end carousel caption-->
+							</div><!-- end item-->
+						</div><!---end carousel inner-->
+					<!--controls-->
+					<a  class="left carousel-control" data-slide="prev" href="#myCarousel"> <span class="icon-prev"></span></a>
+					<a  class="right carousel-control" data-slide="next" href="#myCarousel"> <span class="icon-next"></span></a>
+				</div><!-- carousel slide-->
+			</div><!--end container fluid-->
+			<div class="container" id="mainContent">
+				<div class="row" id="bigCallout">
+					<div class="col-12">
+						<div class="well well-small visible-sm"><!--visible only on small devices-->
+							<a href="#" class="btn btn-large btn-block btn-default">
+								<span class="glyphicon glyphicon"></span>
+							</a>
+						</div>
+						<div class="well">
+							<div class="page-header">
+								<h1><small>Trip Planner</small></h1>
+							</div><!--end page header-->
+							<p class="lead">
+								Find and book your ideal trip at the lowest prices. Millions of traveller reviews and photos to help you get it right.Book hotels in top destinations at the best prices.
+							</p>
+							<p>
+							</p>
+							<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"> Click for Login</span></a>
+							<div class="modal fade" id="myModal">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h1> Login with your details </h1>
+										</div><!--end modal header-->
+										<div class="modal-body">
+											<form class="form-horizontal" action="index.html" method="post">
+												<div class="form-group">
+													<label for="inputEmail" class="col-lg-2 control-label"> Email Id</label>
+													<div class="col-lg-10">
+														<input type="text" class="form-control" id="inputEmail" placeholder="Email Id" name="name" value="">
+													</div>
+												</div>
+												<div class="form-group" id="password">
+													<label for="inputPassword" class="col-lg-2 control-label"> Password </label>
+													<div class="col-lg-10">
+														<input type="password" class="form-control" id="inputPassword" placeholder="Password" name="name" value="">
+													</div>
+												</div>
+												<button type="button" class="btn btn-primary" name="button" id="login"> Login </button>
+												<a href="#" role="button" class="pull-right" id="forgotPassword"> Forgot Password?</a>
+											</form>
+										</div><!--end modal body-->
+										</form>
+										<div class="modal-footer">
+											<button type="button" name="button" class="btn btn-default" data-dismiss="modal"> Close</button>
+										</div><!--end modal footer-->
+									</div><!--end modal content-->
+								</div><!--end modal dialog-->
+							</div><!--end modal-->
+						</div><!--end well-->
+					</div><!--end col-12-->
+				</div><!--end row-->
+				<div class="panel panel-lg text-lg-left">
+					<div class="row" id="featureHeading">
+						<div class="col-12">
+							<h2>More Features</h2>
+								<p class="lead">
+								How trip planner helps you ??
+								</p>
+								<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+						</div><!--end col12-->
+				</div><!--end featureHeading-->
+				<div class="row" id="features">
+					<div class="col-sm-4 feature">
+						<div class="panel">
+							<div class="panel-heading">
+										<h3>Choose your holiday destination  </h3>
+							</div><!--END PANEL HEADING-->
+							<img src="images/holidaydestination.png" alt="no image" class="img-circle" />
+							<p>
+								Pick Destinations, Add Dates and Hit Plan according to your budget!
+							</p>
+							<a href="www.google.com" target="_blank" class="btn btn-success btn-block"> Click to add destinations</a>
+						</div><!--END PANEL-->
+					</div><!--END COL-SM-4-->
+					<div class="col-sm-4 feature">
+						<div class="panel">
+							<div class="panel-heading">
+										<h3> Add attraction to your vacation plans </h3>
+							</div><!--END PANEL HEADING-->
+							<img src="images/1.jpg" alt="no image" class="img-circle" />
+							<p>
+								Choose Top Attractions, Restaurants Worldwide or Add Your Own
+							</p>
+							<a href="www.google.com" target="_blank" class="btn btn-danger btn-block"> Click to add attractions</a>
+						</div><!--END PANEL-->
+					</div><!--END COL-SM-4-->
+					<div class="col-sm-4 feature">
+						<div class="panel">
+							<div class="panel-heading">
+										<h3>Finish off with booking ideal hotels </h3>
+							</div><!--END PANEL HEADING-->
+							<img src="images/3.jpg" alt="no image" class="img-circle" />
+							<p>
+								Search, Compare and Book Hotels From 700,000 Hotels Worldwide!
+							</p>
+							<a href="www.google.com" target="_blank" class="btn btn-primary btn-block"> Click to book hotels</a>
+						</div><!--END PANEL-->
+					</div><!--END COL-SM-4-->
+				</div><!--END ROW-->
+			</div>
+			<div class="row" id="moreInfo">
+				<div class="col-sm-12">
+					<h1>Neat Tabbable Content</h1>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"> <a href="#tab1" data-toggle="tab">Section1</a></li>
+							<li class=""> <a href="#tab2" data-toggle="tab"> Trips </a></li>
+						</ul>
+							<div class="tab-content">
+								<div class="tab-pane active" id="tab1">
+									<h4><span class="glyphicon glyphicon-map-marker"></span>our location <small>more like our favourite surf</small></h4>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3828071.7429331657!2d-159.74922523044614!3d20.450759089483807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1
+									!3m3!1m2!1s0x7bffdb064f79e005%3A0x4b7782d274cc8628!2sHawaii%2C+USA!5e0!3m2!1sen!2sin!4v1476353768551"
+									 width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+										 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+										  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+											 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+											  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</p>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+										 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+										  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+											 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+											  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</p>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+										 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+										  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+											 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+											  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</p>
+								</div><!--end tab1-->
+								<div class="tab-pane" id="tab2">
+									<h4></h4>
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="col-sm-6">
+												<a href="#" class="list-group-item">
+													<h2 class="list-group-item-heading"> Road Trips </h2>
+													<p class="list-group-item-text">
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+													</p></a>
+												</div><!-- end col 6-->
+										<div class="col-sm-6">
+											<img src="images/bg2.jpg" alt=" no image" />
+										</div>
+									</div>
+									</div><!--end row-->
+									<div class="row" id="group">
+										<div class="col-sm-12">
+												<div class="col-sm-6">
+													<img src="images/grouptrips.jpg" alt=" no image" c />
+												</div>
+												<div class="col-sm-6">
+													<div class="list-group">
+														<a href="#" class="list-group-item">
+															<h2 class="list-group-item-heading"> Group Trips </h2>
+															<p class="list-group-item-text">
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+														</p>
+												</a>
+												</div>
+												</div><!-- end col 6-->
+											</div>
+									</div><!--end row-->
+								</div>
+							</div>
+							<div class="panel">
+								<div class="row" id="destinations">
+									<div class="col-sm-12">
+									<div class="row">
+										<div class="col-sm-4" id="berlin">
+											<center>
+											<h1>
+												Berlin <small> Germany
+											</h1>
+											<p>
+												From $69
+											</p>
+											<button type="button" name="button" class="btn btn-default" id="new"> View all 128 offers</button></center>
+										</div><!--end col 4-->
+										</a>
+										<div class="col-sm-4">
+											<img src="images/berlin.jpg" alt="no image" class="img-responsive" />
+										</div><!--end col-4-->
+										<div class="col-sm-4">
+											<img src="images/berlin2.jpg" alt="no image" class="img-responsive" />
+										</div><!--end col-4-->
+									</div>
+								</div><!--end col-12-->
+								</div><!-- end destinations-->
+								<div class="row" id="destinations1">
+									<div class="col-sm-12">
+										<div class="col-sm-4">
+											<img src="images/bangkok.jpg" alt="no image"  class="img-responsive"/>
+										</div><!--end col-4-->
+										<div class="col-sm-4">
+											<img src="images/bankok1.jpg" alt="no image" class="img-responsive" />
+										</div><!--end col-4-->
+										<div class="col-sm-4" id="berlin">
+											<center>
+											<h1>
+												Bangkok <small> Thailand
+											</h1>
+											<p>
+												From $539
+											</p>
+											<button type="button" name="button" class="btn btn-default" id="new"> View all 351 offers</button></center>
+										</div><!--end col 4-->
+									</div><!--end col-12-->
+								</div><!-- end destinations-->
+								<div class="row" id="destinations1">
+									<div class="col-sm-12">
+										<div class="col-sm-4" id="berlin">
+											<center>
+											<h1>
+												Paris <small> France
+											</h1>
+											<p>
+												From $187
+											</p>
+											<button type="button" name="button" class="btn btn-default" id="new"> View all 428 offers</button></center>
+										</div><!--end col 4-->
+										<div class="col-sm-4">
+											<img src="images/paris.jpg" alt="no image" class="img-responsive"/>
+										</div><!--end col-4-->
+
+										<div class="col-sm-4">
+											<img src="images/paris1.jpg" alt="no image" class="img-responsive" />
+										</div><!--end col-4-->
+									</div><!--end col-12-->
+								</div><!-- end destinations-->
+								<div class="row" id="destinations1">
+									<div class="col-sm-12">
+										<div class="col-sm-4">
+											<img src="images/japan1.jpg" alt="no image" class="img" />
+										</div><!--end col-4-->
+
+										<div class="col-sm-4">
+											<img src="images/japan2.jpg" alt="no image" class="img-responsive" />
+										</div><!--end col-4-->
+										<div class="col-4" id="berlin">
+											<center>
+											<h1>
+												Bangkok <small> Thailand
+											</h1>
+											<p>
+												From $539
+											</p>
+											<button type="button" name="button" class="btn btn-default" id="new"> View all 351 offers</button></center>
+										</div><!--end col 4-->
+									</div><!--end col-12-->
+								</div><!-- end destinations-->
+							</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- end container-->
+				<div class="panel">
+				<div class="row" id="moreCourses">
+					<div class="container">
+							<center>
+							<h1><b> Hot Deals<b> </h1>
+								<p class="lead">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</p>
+								</center>
+								<div class="col-sm-12">
+										<div class="col-sm-4">
+												<div class="rome">
+														<img src="images/rome.jpg" alt=" no" class="img-responsive" />
+														<h2><b>Dream tour agency</b> </h2>
+														<p class="lead">
+																3  days in Rome. Extensive walking tour
+														</p>
+												<h4><span class="glyphicon glyphicon-map-marker"></span>Hotel Cosmopolita <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
+
+														<p class="lead">
+															3 days in Rome is the bare minimum! This 3-day tour will show you the main sites and attractions, and will take you around parts of the city that will guarantee to have you planning your return trip as soon as possible.
+	BOOK NOWLEARN MORE
+														</p>
+														<button type="button" class="btn btn-large btn-danger" name="button">Book Now</button>&nbsp &nbsp
+														<button type="button" class="btn btn-large btn-primary" name="button">Learn More</button>
+
+													</center>
+													</div>
+
+											</div><!--end col-sm-4-->
+											<div class="col-sm-4">
+													<div class="rome">
+														<img src="images/thailand.jpg" alt=" no" class="img-responsive"/>
+														<h2><b> Good agency</b> </h2>
+														<p class="lead">
+																3  days in Rome. Extensive walking tour
+														</p>
+												<h4><span class="glyphicon glyphicon-map-marker"></span>Hotel Shangri-aa, Bangkok <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
+
+														<p class="lead">
+															3 days in Rome is the bare minimum! This 3-day tour will show you the main sites and attractions, and will take you around parts of the city that will guarantee to have you planning your return trip as soon as possible.
+	BOOK NOWLEARN MORE
+
+														</p>
+														<button type="button" class="btn btn-large btn-danger" name="button">Book Now</button>&nbsp &nbsp
+														<button type="button" class="btn btn-large btn-warning" name="button">Learn More</button>
+
+													</center>
+													</div>
+
+											</div><!--end col-sm-4-->
+											<div class="col-sm-4">
+													<div class="rome">
+														<img src="images/europe.jpg" alt=" no" class="img-responsive" />
+														<h2><b> Good agency </b></h2>
+														<p class="lead">
+																3  days in Rome. Extensive walking tour
+														</p>
+												<h4><span class="glyphicon glyphicon-map-marker"></span>Hotel Shangri-aa, Bangkok <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
+
+														<p class="lead">
+															3 days in Rome is the bare minimum! This 3-day tour will show you the main sites and attractions, and will take you around parts of the city that will guarantee to have you planning your return trip as soon as possible.
+	BOOK NOWLEARN MORE
+
+														</p>
+														<button type="button" class="btn btn-large btn-danger" name="button">Book Now</button>&nbsp &nbsp
+														<button type="button" class="btn btn-large btn-warning" name="button">Learn More</button>
+
+													</center>
+													</div>
+
+											</div><!--end col-sm-4-->
+										</div>
+										<div class="col-sm-12">
+											<div class="col-sm-4">
+													<div class="rome">
+														<img src="images/D2..jpg" alt=" no" class="img-responsive" />
+														<h2><b> Good agency</b> </h2>
+														<p class="lead">
+																3  days in Rome. Extensive walking tour
+														</p>
+												<h4><span class="glyphicon glyphicon-map-marker"></span>Hotel Shangri-aa, Bangkok <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
+
+														<p class="lead">
+															3 days in Rome is the bare minimum! This 3-day tour will show you the main sites and attractions, and will take you around parts of the city that will guarantee to have you planning your return trip as soon as possible.
+	BOOK NOWLEARN MORE
+
+														</p>
+														<button type="button" class="btn btn-large btn-danger" name="button">Book Now</button>&nbsp &nbsp
+														<button type="button" class="btn btn-large btn-warning" name="button">Learn More</button>
+
+													</center>
+													</div>
+
+											</div><!--end col-sm-4-->
+											<div class="col-sm-4">
+													<div class="rome">
+														<img src="images/d3..jpg" alt=" no" class="img-responsive" />
+														<h2><b> Good agency </b></h2>
+														<p class="lead">
+																3  days in Rome. Extensive walking tour
+														</p>
+												<h4><span class="glyphicon glyphicon-map-marker"></span>Hotel Shangri-aa, Bangkok <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
+
+														<p class="lead">
+															3 days in Rome is the bare minimum! This 3-day tour will show you the main sites and attractions, and will take you around parts of the city that will guarantee to have you planning your return trip as soon as possible.
+	BOOK NOWLEARN MORE
+
+														</p>
+														<button type="button" class="btn btn-large btn-danger" name="button">Book Now</button>&nbsp &nbsp
+														<button type="button" class="btn btn-large btn-warning" name="button">Learn More</button>
+
+													</center>
+													</div>
+
+											</div><!--end col-sm-4-->
+											<div class="col-sm-4">
+													<div class="rome">
+														<img src="images/d4..jpg" alt=" no" class="img-responsive" />
+														<h2><b> Good agency </b></h2>
+														<p class="lead">
+																3  days in Rome. Extensive walking tour
+														</p>
+												<h4><span class="glyphicon glyphicon-map-marker"></span>Hotel Shangri-aa, Bangkok <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></h4>
+
+														<p class="lead">
+															3 days in Rome is the bare minimum! This 3-day tour will show you the main sites and attractions, and will take you around parts of the city that will guarantee to have you planning your return trip as soon as possible.
+	BOOK NOWLEARN MORE
+
+														</p>
+														<button type="button" class="btn btn-large btn-danger" name="button">Book Now</button>&nbsp &nbsp
+														<button type="button" class="btn btn-large btn-warning" name="button">Learn More</button>
+
+													</center>
+													</div>
+											</div>
+										</div>
+											<br>
+										</div><!--container-->
+										<div class="" id="final">
+										<center>
+										<button type="button" class="btn btn-large btn-success" name="button" data-target=".navbar-responsive-collapse">View All Deals</button></center>
+									</div>
+								</div><!--more courses-->
+							</div>
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="col-sm-3">
+						<h4>Copyright &copy; 2016 </h4>
+						</div><!-- end col-sm-2 -->
+
+						<div class="col-sm-3">
+							<h4>About Us</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div><!-- end col-sm-4 -->
+
+						<div class="col-sm-3" id="navigate">
+							<h4>Navigation</h4>
+							<ul class="unstyled">
+								<li><a href="#">Home <span class="glyphicon glyphicon-home"></span></p></a> </li>
+								<li><a href="#">Services <span class="glyphicon glyphicon-cog"></span></a></li>
+								<li><a href="#">Links <span class="glyphicon glyphicon-hand-left"></a></li>
+								<li><a href="#">Contact <span class="glyphicon glyphicon-phone-alt"></span></a></li>
+							</ul>
+						</div><!-- end col-sm-2 -->
+
+						<div class="col-sm-3" id="followUs">
+							<h4><center>Follow Us</center></h4>
+							<ul>
+									<div class="col-sm-4" id="insta">
+									<img src="images/fb.png" alt="" class="img-responsive"/>
+								</div>
+									<div class="col-sm-4" id="insta">
+										<img src="images/instagram.png" alt="" class="img-responsive"/>
+								</div>
+								<div class="col-sm-2" id="insta">
+									<img src="images/twitter.png" alt=""/>
+							</div>
+					</ul>
+						</div><!-- end col-sm-2 -->
+
+						<div class="col-sm-3">
+						</div><!-- end col-sm-2 -->
+					</div>
+					</div><!-- end row -->
+				</div><!-- end container -->
+			</footer>
+
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Custom JS -->
+		<script src="includes/js/script.js"></script>
+
+		</body>
+	</html>
